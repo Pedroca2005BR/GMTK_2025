@@ -83,6 +83,9 @@ namespace TimeSnapshot
             snapshotIndex = 0;
             state = State.Replaying;
             specialTimer = seconds;
+
+            // Liga o glitch
+            ShaderController.instance.TurnOn();
         }
         
         public void Rewind(float seconds = 10)
@@ -90,11 +93,17 @@ namespace TimeSnapshot
             snapshotIndex = snapshotStorage.savedSnapshots.Count - 1;
             state = State.Rewinding;
             specialTimer = seconds;
+
+            // Liga o glitch
+            ShaderController.instance.TurnOn();
         }
 
         public void GoIdle()
         {
             state = State.Idle;
+
+            // Desliga o glitch
+            ShaderController.instance.TurnOff();
         }
 
 
