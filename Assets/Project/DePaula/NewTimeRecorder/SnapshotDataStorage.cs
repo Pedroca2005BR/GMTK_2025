@@ -13,6 +13,16 @@ namespace TimeSnapshot
             savedSnapshots.Add(snapshot);
         }
 
-        
+        public bool GetSnapshot(int index,  out FullGameSnapshot snapshot)
+        {
+            if (index >= savedSnapshots.Count)
+            {
+                snapshot = new FullGameSnapshot(-1);
+                return false;
+            }
+
+            snapshot = savedSnapshots[index];
+            return true;
+        }
     }
 }

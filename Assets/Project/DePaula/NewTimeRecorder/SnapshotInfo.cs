@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace TimeSnapshot
 {
-    public struct SnapshotInfo
+    public class SnapshotInfo
     {
         public Vector3 Position;
         public Quaternion Rotation;
@@ -16,4 +16,11 @@ namespace TimeSnapshot
             Scale = scale;
         }
     }
+
+    //public class PhysicsSnapshotInfo : SnapshotInfo
+    //{
+    //    public PhysicsSnapshotInfo(Vector3 position, Quaternion rotation, Vector3 scale) : base(position, rotation, scale)
+    //    {
+    //    }
+    //}
 }

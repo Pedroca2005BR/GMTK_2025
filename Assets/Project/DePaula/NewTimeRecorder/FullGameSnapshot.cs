@@ -18,5 +18,10 @@ namespace TimeSnapshot
         {
             snapshots[key] = value;
         }
+
+        public bool GetSnapshot(string key, out SnapshotInfo value)
+        {
+            return snapshots.TryGetValue(key, out value);
+        }
     }
 }
