@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 539c2dbdbc6a30049a6f48c8f3eeb37c
+guid: f89dfa785c59bf649b26fc21e6687013
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3374067474323769153
-    second: pause-icon-29592_0
-  - first:
-      213: 2746468011084941509
-    second: pause-icon-29592_1
+      213: 8379867094185379619
+    second: tubovazio_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pause-icon-29592_0
+      name: tubovazio_0
       rect:
         serializedVersion: 2
-        x: 117
-        y: 97
-        width: 101
-        height: 318
+        x: 119
+        y: 79
+        width: 82
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1478447cd7813de20800000000000000
-      internalID: 3374067474323769153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pause-icon-29592_1
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 97
-        width: 101
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c801bbca1a6d1620800000000000000
-      internalID: 2746468011084941509
+      spriteID: 32787e549b44b4470800000000000000
+      internalID: 8379867094185379619
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pause-icon-29592_0: 3374067474323769153
-      pause-icon-29592_1: 2746468011084941509
+      tubovazio_0: 8379867094185379619
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
