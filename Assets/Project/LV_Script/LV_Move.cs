@@ -1,7 +1,6 @@
 using UnityEngine;
 
 //Mudei o nome da classe para melhor representar sua função
-[RequireComponent (typeof(PlayerRecordable))]
 public class LV_Move : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
@@ -11,9 +10,9 @@ public class LV_Move : MonoBehaviour
 
     /* private Animator animator; */
     private Rigidbody2D rb;
-    private bool isEnabled = true;
 
     private Vector2 moveDirection;
+    private bool withItem = false;
 
     void Start()
     {
@@ -23,15 +22,13 @@ public class LV_Move : MonoBehaviour
 
     void Update()
     {
-        if (isEnabled)
+        if (Input.GetKeyDown(interactionKey))
         {
-            if (Input.GetKeyDown(interactionKey))
-            {
-                TryInteract();
-            }
-            moveDirection.x = Input.GetAxisRaw("Horizontal");
-            moveDirection.y = Input.GetAxisRaw("Vertical");
+            TryInteract();
         }
+        moveDirection.x = Input.GetAxisRaw("Horizontal");
+        moveDirection.y = Input.GetAxisRaw("Vertical");
+
         /* animator.SetFloat("Speed", moveDirection.sqrMagnitude); */
     }
 
@@ -43,20 +40,23 @@ public class LV_Move : MonoBehaviour
     private void TryInteract()
     {
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, interactionRange, interactableLayer);
-        
+
         foreach (var hitCollider in hitColliders)
         {
             if (hitCollider.CompareTag("Button"))
             {
                 hitCollider.GetComponent<LV_Button>().PressButton();
-                break; 
+                break;
+            }
+            if (hitCollider.CompareTag("Item"))
+            {
+                if (!withItem)
+                {
+                    withItem = true;
+                    hitCollider.GetComponent<LV_Item>().TakeItem();
+                }
             }
         }
-    }
-
-    public void SetEnabled(bool enabled)
-    {
-        isEnabled = enabled;
     }
     
 
