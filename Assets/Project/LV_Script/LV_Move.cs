@@ -11,16 +11,16 @@ public class LV_Move : MonoBehaviour
 
     private bool isEnabled = true;
 
-    /* private Animator animator; */
+    private Animator animator;
     private Rigidbody2D rb;
 
-    private Vector2 moveDirection;
+    private Vector2 moveDirection = Vector2.zero;
     private bool withItem = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        /* animator = GetComponent<Animator>(); */
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -34,7 +34,9 @@ public class LV_Move : MonoBehaviour
             moveDirection.x = Input.GetAxisRaw("Horizontal");
             moveDirection.y = Input.GetAxisRaw("Vertical");
         }
-        /* animator.SetFloat("Speed", moveDirection.sqrMagnitude); */
+
+        animator.SetBool("isWalking", moveDirection != Vector2.zero);
+        animator.SetFloat("walkDirection", moveDirection.sqrMagnitude);
     }
 
     void FixedUpdate()
