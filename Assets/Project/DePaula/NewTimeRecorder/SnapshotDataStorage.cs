@@ -8,14 +8,21 @@ namespace TimeSnapshot
     {
         public List<FullGameSnapshot> savedSnapshots = new List<FullGameSnapshot>();
 
-        public void AddSnapshot(FullGameSnapshot snapshot)
+        public void AddSnapshot(FullGameSnapshot snapshot, int index)
         {
-            savedSnapshots.Add(snapshot);
+            if (index > savedSnapshots.Count)
+            {
+                savedSnapshots.Add(snapshot);
+            }
+            else
+            {
+                savedSnapshots.Insert(index, snapshot);
+            }
         }
 
         public bool GetSnapshot(int index,  out FullGameSnapshot snapshot)
         {
-            if (index >= savedSnapshots.Count)
+            if (index >= savedSnapshots.Count || index < 0)
             {
                 snapshot = new FullGameSnapshot(-1);
                 return false;

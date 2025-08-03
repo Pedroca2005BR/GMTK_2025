@@ -84,14 +84,43 @@ public class CameraStateUIController : MonoBehaviour
         timer = blinkTime;
     }
 
-    //IEnumerator BlinkCoroutine()
-    //{
-    //    while (true)
-    //    {
-    //        chosenAsset.SetActive(true);
-    //        yield return new WaitForSeconds(blinkTime);
-    //        chosenAsset.SetActive(false);
-    //        yield return new WaitForSeconds(blinkTime);
-    //    }
-    //}
+
+    private void OnEnable()
+    {
+        EventManager.Subscribe("Record", PrepareRecord);
+        EventManager.Subscribe("Pause", PreparePause);
+        EventManager.Subscribe("Replay", PrepareReplay);
+        EventManager.Subscribe("Rewind", PrepareRewind);
+        EventManager.Subscribe("AtTimeMachine", PreparePause);
+    }
+
+    private void OnDisable()
+    {
+        EventManager.Unsubscribe("Record", PrepareRecord);
+        EventManager.Unsubscribe("Pause", PreparePause);
+        EventManager.Unsubscribe("Replay", PrepareReplay);
+        EventManager.Unsubscribe("Rewind", PrepareRewind);
+        EventManager.Unsubscribe("AtTimeMachine", PreparePause);
+    }
+
+
+    private void PrepareRecord(object parameter)
+    {
+        RecordMode();
+    }
+
+    private void PrepareRewind(object parameter)
+    {
+        RewindMode();
+    }
+
+    private void PreparePause(object parameter)
+    {
+        PauseMode();
+    }
+
+    private void PrepareReplay(object parameter)
+    {
+        ReplayMode();
+    }
 }

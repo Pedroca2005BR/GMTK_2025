@@ -60,7 +60,7 @@ namespace Pedroca2005BR.Platformer_2D
         protected Rigidbody2D rb;
         PlayerInput playerInput;
 
-        private void OnEnable()
+        private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
             playerInput = GetComponent<PlayerInput>();
@@ -91,6 +91,10 @@ namespace Pedroca2005BR.Platformer_2D
         public void DisableOrEnableInput()
         {
             playerInput.enabled = !playerInput.enabled;
+        }
+        public void DisableOrEnableInput(bool b)
+        {
+            playerInput.enabled = b;
         }
 
 
