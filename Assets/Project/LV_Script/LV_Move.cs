@@ -12,6 +12,7 @@ public class LV_Move : MonoBehaviour
     private Rigidbody2D rb;
 
     private Vector2 moveDirection;
+    private bool withItem = false;
 
     void Start()
     {
@@ -39,13 +40,21 @@ public class LV_Move : MonoBehaviour
     private void TryInteract()
     {
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, interactionRange, interactableLayer);
-        
+
         foreach (var hitCollider in hitColliders)
         {
             if (hitCollider.CompareTag("Button"))
             {
                 hitCollider.GetComponent<LV_Button>().PressButton();
-                break; 
+                break;
+            }
+            if (hitCollider.CompareTag("Item"))
+            {
+                if (!withItem)
+                {
+                    withItem = true;
+                    hitCollider.GetComponent<LV_Item>().TakeItem();
+                }
             }
         }
     }
