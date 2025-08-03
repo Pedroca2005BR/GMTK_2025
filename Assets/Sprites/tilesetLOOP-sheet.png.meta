@@ -1,28 +1,46 @@
 fileFormatVersion: 2
-guid: 4a53679f732646248a3f541c9fa1c66c
+guid: 4bdc05ad0f609d64a999bfb80dcfda93
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5767656727798121224
-    second: CharacterAni_0
+      213: 2534139154319308740
+    second: tilesetLOOP-sheet_0
   - first:
-      213: -8168636518519760575
-    second: CharacterAni_1
+      213: -4629878245751549636
+    second: tilesetLOOP-sheet_1
   - first:
-      213: -3826389426606461575
-    second: CharacterAni_2
+      213: 4293199962699717186
+    second: tilesetLOOP-sheet_2
   - first:
-      213: 5185261362724140349
-    second: CharacterAni_3
+      213: -6083624884575474222
+    second: tilesetLOOP-sheet_3
   - first:
-      213: 42283102699856275
-    second: CharacterAni_4
+      213: 7201050549609462297
+    second: tilesetLOOP-sheet_4
   - first:
-      213: 5977085200205410886
-    second: CharacterAni_5
+      213: -7652300272266908071
+    second: tilesetLOOP-sheet_5
   - first:
-      213: 2124458981434366704
-    second: CharacterAni_6
+      213: -2947112532572393353
+    second: tilesetLOOP-sheet_6
+  - first:
+      213: 5701963902295456817
+    second: tilesetLOOP-sheet_7
+  - first:
+      213: -4822411812211474647
+    second: tilesetLOOP-sheet_8
+  - first:
+      213: -4741149478113391234
+    second: tilesetLOOP-sheet_9
+  - first:
+      213: 234706256594338512
+    second: tilesetLOOP-sheet_10
+  - first:
+      213: -5532572981731109405
+    second: tilesetLOOP-sheet_11
+  - first:
+      213: -1942677213320991913
+    second: tilesetLOOP-sheet_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -90,7 +108,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -118,441 +136,331 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CharacterAni_0
+      name: tilesetLOOP-sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 16
+        y: 132
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 63d1795240b0eaa4b93934dccdc807c9
-      internalID: 900431241
+      spriteID: 4c77c9862221b2320800000000000000
+      internalID: 2534139154319308740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_1
+      name: tilesetLOOP-sheet_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 80
+        y: 132
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e09ffad54b129d444b96a3ba0e9f9e63
-      internalID: -671980234
+      spriteID: c319ba0044e5fbfb0800000000000000
+      internalID: -4629878245751549636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_2
+      name: tilesetLOOP-sheet_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 144
+        y: 132
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3ceea8c33b58f1041a923f05562defb9
-      internalID: 353565380
+      spriteID: 24adf66ae92849b30800000000000000
+      internalID: 4293199962699717186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_3
+      name: tilesetLOOP-sheet_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 208
+        y: 132
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7edc7892f584a27468a9e5dd8a01846e
-      internalID: -335032638
+      spriteID: 2dde620666f929ba0800000000000000
+      internalID: -6083624884575474222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_4
+      name: tilesetLOOP-sheet_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
+        x: 272
+        y: 132
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5041e183c86db8449b80e407f45fe8e3
-      internalID: 886173663
+      spriteID: 91a7a1372554fe360800000000000000
+      internalID: 7201050549609462297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_5
+      name: tilesetLOOP-sheet_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 320
+        y: 132
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0593ca3eec0170a4c9d84e6305bbc1ce
-      internalID: -596397758
+      spriteID: 95ee7ec22719dc590800000000000000
+      internalID: -7652300272266908071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_6
+      name: tilesetLOOP-sheet_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 16
+        y: 84
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5a5c96bae39365e4fb069519530ecafe
-      internalID: 2139786569
+      spriteID: 770bbee14c0c917d0800000000000000
+      internalID: -2947112532572393353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_7
+      name: tilesetLOOP-sheet_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 80
+        y: 84
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d17cc62e36e96cb43ae01fa6a4f378a5
-      internalID: 833173367
+      spriteID: 13cbb6675f1712f40800000000000000
+      internalID: 5701963902295456817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_8
+      name: tilesetLOOP-sheet_8
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
+        x: 144
+        y: 84
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 72c3acf72206fd34cabfb5a1d4c1820f
-      internalID: -701708456
+      spriteID: 92fbc7cc10a531db0800000000000000
+      internalID: -4822411812211474647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_9
+      name: tilesetLOOP-sheet_9
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
+        x: 208
+        y: 84
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f5e7775ba5a2b93489af83c2ff41fd3f
-      internalID: -1499964426
+      spriteID: e7dc50a5bad043eb0800000000000000
+      internalID: -4741149478113391234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_10
+      name: tilesetLOOP-sheet_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 272
+        y: 84
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 73004edb163045843b9b0f01bf5607fa
-      internalID: -1013142746
+      spriteID: 0d20edac818d14300800000000000000
+      internalID: 234706256594338512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_11
+      name: tilesetLOOP-sheet_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 320
+        y: 84
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 474ed92734cc3a747abc309022453f82
-      internalID: 2140173454
+      spriteID: 3e55ef99f2a5833b0800000000000000
+      internalID: -5532572981731109405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_12
+      name: tilesetLOOP-sheet_12
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
+        x: 144
+        y: 36
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 37567811661b0aa4193db7b20172296b
-      internalID: -50732436
+      spriteID: 75ba1c20e593a05e0800000000000000
+      internalID: -1942677213320991913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_13
+      name: tilesetLOOP-sheet_13
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
+        x: 208
+        y: 36
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4880943777aec4e4aaf7676dfc4a7928
-      internalID: 1344333862
+      spriteID: eabd7560631f43844b02e66ac1fdb44e
+      internalID: 1506128856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterAni_14
+      name: tilesetLOOP-sheet_14
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
+        x: 272
+        y: 36
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fd6721e7569351439bb13339a0aa29f
-      internalID: -216431468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharacterAni_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcd3c6e3fe283a145b900990587ec600
-      internalID: -610706412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharacterAni_16
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e02f5c138f0c4344c8d7d72885197791
-      internalID: 125446762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharacterAni_17
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7ae19aadacaa624fab6e6366294e9be
-      internalID: -1039016409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharacterAni_18
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0593e824a157fd4483e64a739ac8fb1
-      internalID: -2088181007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharacterAni_19
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0926a853a26cf3489440ce0172072e9
-      internalID: 231117801
+      spriteID: fc48c6bd056667b41a422d5ff737280f
+      internalID: -1979471263
       vertices: []
       indices: 
       edges: []
@@ -561,7 +469,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 86c85dea908ad0b41b53571703d6edf4
+    spriteID: bc3f43c267e5fb84bb7ec0620542d4e7
     internalID: 0
     vertices: []
     indices: 
@@ -571,26 +479,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CharacterAni_0: 900431241
-      CharacterAni_1: -671980234
-      CharacterAni_10: -1013142746
-      CharacterAni_11: 2140173454
-      CharacterAni_12: -50732436
-      CharacterAni_13: 1344333862
-      CharacterAni_14: -216431468
-      CharacterAni_15: -610706412
-      CharacterAni_16: 125446762
-      CharacterAni_17: -1039016409
-      CharacterAni_18: -2088181007
-      CharacterAni_19: 231117801
-      CharacterAni_2: 353565380
-      CharacterAni_3: -335032638
-      CharacterAni_4: 886173663
-      CharacterAni_5: -596397758
-      CharacterAni_6: 2139786569
-      CharacterAni_7: 833173367
-      CharacterAni_8: -701708456
-      CharacterAni_9: -1499964426
+      tilesetLOOP-sheet_0: 2534139154319308740
+      tilesetLOOP-sheet_1: -4629878245751549636
+      tilesetLOOP-sheet_10: 234706256594338512
+      tilesetLOOP-sheet_11: -5532572981731109405
+      tilesetLOOP-sheet_12: -1942677213320991913
+      tilesetLOOP-sheet_13: 1506128856
+      tilesetLOOP-sheet_14: -1979471263
+      tilesetLOOP-sheet_2: 4293199962699717186
+      tilesetLOOP-sheet_3: -6083624884575474222
+      tilesetLOOP-sheet_4: 7201050549609462297
+      tilesetLOOP-sheet_5: -7652300272266908071
+      tilesetLOOP-sheet_6: -2947112532572393353
+      tilesetLOOP-sheet_7: 5701963902295456817
+      tilesetLOOP-sheet_8: -4822411812211474647
+      tilesetLOOP-sheet_9: -4741149478113391234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
