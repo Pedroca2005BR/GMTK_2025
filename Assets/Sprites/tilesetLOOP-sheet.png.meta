@@ -41,6 +41,12 @@ TextureImporter:
   - first:
       213: -1942677213320991913
     second: tilesetLOOP-sheet_12
+  - first:
+      213: -7100438399434085084
+    second: tilesetLOOP-sheet_13
+  - first:
+      213: 1569508650155110512
+    second: tilesetLOOP-sheet_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -403,8 +409,8 @@ TextureImporter:
       name: tilesetLOOP-sheet_12
       rect:
         serializedVersion: 2
-        x: 144
-        y: 36
+        x: 16
+        y: 19
         width: 32
         height: 32
       alignment: 0
@@ -425,6 +431,50 @@ TextureImporter:
       name: tilesetLOOP-sheet_13
       rect:
         serializedVersion: 2
+        x: 80
+        y: 52
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d203c35ec267d90800000000000000
+      internalID: -7100438399434085084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetLOOP-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 36
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070f56c3dc308c510800000000000000
+      internalID: 1569508650155110512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesetLOOP-sheet_15
+      rect:
+        serializedVersion: 2
         x: 208
         y: 36
         width: 32
@@ -437,14 +487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eabd7560631f43844b02e66ac1fdb44e
-      internalID: 1506128856
+      spriteID: f840210408852984fae3e215bbf118a0
+      internalID: 324580883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilesetLOOP-sheet_14
+      name: tilesetLOOP-sheet_16
       rect:
         serializedVersion: 2
         x: 272
@@ -459,8 +509,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc48c6bd056667b41a422d5ff737280f
-      internalID: -1979471263
+      spriteID: d4dc693a0ea2a23468387d0f439657aa
+      internalID: 627400931
       vertices: []
       indices: 
       edges: []
@@ -469,7 +519,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bc3f43c267e5fb84bb7ec0620542d4e7
+    spriteID: 1fd3d80df7c1b98468ba9ccbd01b24d8
     internalID: 0
     vertices: []
     indices: 
@@ -484,8 +534,10 @@ TextureImporter:
       tilesetLOOP-sheet_10: 234706256594338512
       tilesetLOOP-sheet_11: -5532572981731109405
       tilesetLOOP-sheet_12: -1942677213320991913
-      tilesetLOOP-sheet_13: 1506128856
-      tilesetLOOP-sheet_14: -1979471263
+      tilesetLOOP-sheet_13: -7100438399434085084
+      tilesetLOOP-sheet_14: 1569508650155110512
+      tilesetLOOP-sheet_15: 324580883
+      tilesetLOOP-sheet_16: 627400931
       tilesetLOOP-sheet_2: 4293199962699717186
       tilesetLOOP-sheet_3: -6083624884575474222
       tilesetLOOP-sheet_4: 7201050549609462297
