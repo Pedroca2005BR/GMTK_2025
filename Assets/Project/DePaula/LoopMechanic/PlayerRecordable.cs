@@ -26,6 +26,7 @@ public class PlayerRecordable : MonoBehaviour, IRecordable
             if (Input.GetMouseButtonDown(0))
             {
                 timeToReplay += Time.deltaTime * replayIncrementSpeed;
+                EventManager.TriggerEvent("ReplayTimeIncrease", timeToReplay);
             }
             else if (Input.GetMouseButtonUp(0))
             {
