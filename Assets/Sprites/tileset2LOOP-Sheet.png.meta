@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 39c24ed961eefc448888b9c9df5e2ad7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1235032923250020353
+    second: tileset2LOOP-Sheet_0
+  - first:
+      213: -6075005879740661336
+    second: tileset2LOOP-Sheet_1
+  - first:
+      213: 822619375591565202
+    second: tileset2LOOP-Sheet_2
+  - first:
+      213: 1982193546813189813
+    second: tileset2LOOP-Sheet_3
+  - first:
+      213: 8352324508417372037
+    second: tileset2LOOP-Sheet_4
+  - first:
+      213: -7371483844854411578
+    second: tileset2LOOP-Sheet_5
+  - first:
+      213: -3649155228528673244
+    second: tileset2LOOP-Sheet_6
+  - first:
+      213: 5017453742005570254
+    second: tileset2LOOP-Sheet_7
+  - first:
+      213: -4455415888317214254
+    second: tileset2LOOP-Sheet_8
+  - first:
+      213: 6181741760227481207
+    second: tileset2LOOP-Sheet_9
+  - first:
+      213: 2093195678646648693
+    second: tileset2LOOP-Sheet_10
+  - first:
+      213: 470061408588681155
+    second: tileset2LOOP-Sheet_11
+  - first:
+      213: 3955214413331076922
+    second: tileset2LOOP-Sheet_12
+  - first:
+      213: -443778509163886407
+    second: tileset2LOOP-Sheet_13
+  - first:
+      213: -7069170467004982842
+    second: tileset2LOOP-Sheet_14
+  - first:
+      213: -8629350399432129347
+    second: tileset2LOOP-Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 156
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff25cb89184cdee0800000000000000
+      internalID: -1235032923250020353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 153
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a106a1d65e31bba0800000000000000
+      internalID: -6075005879740661336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 148
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2972d73b6f78a6b00800000000000000
+      internalID: 822619375591565202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 150
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be2fd9578a228b10800000000000000
+      internalID: 1982193546813189813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 151
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fa10d43ea69e370800000000000000
+      internalID: 8352324508417372037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 149
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce0ce7bf7a33b990800000000000000
+      internalID: -7371483844854411578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 106
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ef94957a89b5dc0800000000000000
+      internalID: -3649155228528673244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 102
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca4231489391a540800000000000000
+      internalID: 5017453742005570254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 100
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1983afade2b22c0800000000000000
+      internalID: -4455415888317214254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 106
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7769e8fe065f9c550800000000000000
+      internalID: 6181741760227481207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 100
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fbd1721668c0d10800000000000000
+      internalID: 2093195678646648693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 108
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf4c815c5ef58600800000000000000
+      internalID: 470061408588681155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 102
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a379a15ad8eb3e630800000000000000
+      internalID: 3955214413331076922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 52
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b885521cc167d9f0800000000000000
+      internalID: -443778509163886407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c95c711ae245ed90800000000000000
+      internalID: -7069170467004982842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 52
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4097f28836e3880800000000000000
+      internalID: -8629350399432129347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset2LOOP-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 75
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2190619392a0c4b92c4cfe0683776d
+      internalID: -1594935668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 29626d0ca5631d946904bbc95d8a6513
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tileset2LOOP-Sheet_0: -1235032923250020353
+      tileset2LOOP-Sheet_1: -6075005879740661336
+      tileset2LOOP-Sheet_10: 2093195678646648693
+      tileset2LOOP-Sheet_11: 470061408588681155
+      tileset2LOOP-Sheet_12: 3955214413331076922
+      tileset2LOOP-Sheet_13: -443778509163886407
+      tileset2LOOP-Sheet_14: -7069170467004982842
+      tileset2LOOP-Sheet_15: -8629350399432129347
+      tileset2LOOP-Sheet_16: -1594935668
+      tileset2LOOP-Sheet_2: 822619375591565202
+      tileset2LOOP-Sheet_3: 1982193546813189813
+      tileset2LOOP-Sheet_4: 8352324508417372037
+      tileset2LOOP-Sheet_5: -7371483844854411578
+      tileset2LOOP-Sheet_6: -3649155228528673244
+      tileset2LOOP-Sheet_7: 5017453742005570254
+      tileset2LOOP-Sheet_8: -4455415888317214254
+      tileset2LOOP-Sheet_9: 6181741760227481207
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
