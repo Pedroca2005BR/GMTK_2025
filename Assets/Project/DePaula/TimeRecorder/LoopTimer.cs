@@ -2,6 +2,13 @@ using UnityEngine;
 
 public class LoopTimer : Pedroca2005BR.Utilities.Stopwatch
 {
+
+    private void Start()
+    {
+        EventManager.TriggerEvent("StartRun", null);
+        EventManager.TriggerEvent("Record", null);
+    }
+
     private void OnEnable()
     {
         EventManager.Subscribe("StartRun", StartRun);

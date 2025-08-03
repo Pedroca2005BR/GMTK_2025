@@ -1,6 +1,7 @@
 using UnityEngine;
 
 //Mudei o nome da classe para melhor representar sua função
+[RequireComponent (typeof(PlayerRecordable))]
 public class LV_Move : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
@@ -10,6 +11,7 @@ public class LV_Move : MonoBehaviour
 
     /* private Animator animator; */
     private Rigidbody2D rb;
+    private bool isEnabled = true;
 
     private Vector2 moveDirection;
 
@@ -21,13 +23,15 @@ public class LV_Move : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(interactionKey))
+        if (isEnabled)
         {
-            TryInteract();
+            if (Input.GetKeyDown(interactionKey))
+            {
+                TryInteract();
+            }
+            moveDirection.x = Input.GetAxisRaw("Horizontal");
+            moveDirection.y = Input.GetAxisRaw("Vertical");
         }
-        moveDirection.x = Input.GetAxisRaw("Horizontal");
-        moveDirection.y = Input.GetAxisRaw("Vertical");
-
         /* animator.SetFloat("Speed", moveDirection.sqrMagnitude); */
     }
 
@@ -48,6 +52,11 @@ public class LV_Move : MonoBehaviour
                 break; 
             }
         }
+    }
+
+    public void SetEnabled(bool enabled)
+    {
+        isEnabled = enabled;
     }
     
 

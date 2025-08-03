@@ -65,7 +65,7 @@ namespace TimeSnapshot
                     if (specialTimer < 0)
                     {
                         GoIdle();
-
+                        EventManager.TriggerEvent("Record", null);
                     }
                     break;
 
@@ -188,7 +188,7 @@ namespace TimeSnapshot
         }
         void PrepareRewind(object parameter)
         {
-            Debug.Log(parameter);
+            //Debug.Log(parameter);
             Rewind((float)parameter);
         }
         void PrepareIdle(object parameter)
