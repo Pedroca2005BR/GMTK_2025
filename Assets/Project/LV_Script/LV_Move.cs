@@ -61,6 +61,11 @@ public class LV_Move : MonoBehaviour
                     hitCollider.GetComponent<LV_Item>().TakeItem();
                 }
             }
+            if (hitCollider.CompareTag("Text"))
+            {
+                hitCollider.GetComponent<TextInterface>().ShowText();
+                break;
+            }
         }
     }
 
