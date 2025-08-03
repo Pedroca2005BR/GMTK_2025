@@ -9,18 +9,16 @@ namespace TimeSnapshot
         public Quaternion Rotation;
         public Vector3 Scale;
 
-        public SnapshotInfo(Vector3 position, Quaternion rotation, Vector3 scale)
-        {
-            Position = position;
-            Rotation = rotation;
-            Scale = scale;
-        }
+        //public SnapshotInfo(Vector3 position, Quaternion rotation, Vector3 scale)
+        //{
+        //    Position = position;
+        //    Rotation = rotation;
+        //    Scale = scale;
+        //}
     }
 
-    //public class PhysicsSnapshotInfo : SnapshotInfo
-    //{
-    //    public PhysicsSnapshotInfo(Vector3 position, Quaternion rotation, Vector3 scale) : base(position, rotation, scale)
-    //    {
-    //    }
-    //}
+    public class PhysicsSnapshotInfo : SnapshotInfo
+    {
+        public Rigidbody2D rb;
+    }
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System;
 
 namespace TimeSnapshot
 {
@@ -35,16 +36,26 @@ namespace TimeSnapshot
 
         float timeFrame;
         State state;
-        int snapshotIndex;
+        public int snapshotIndex = -1;
         float specialTimer = 0;
+
+        //private void Start()
+        //{
+        //    recordables = new List<IRecordable>(transform.GetComponents<IRecordable>());
+        //    Debug.Log(recordables.Count);
+        //}
 
 
         private void FixedUpdate()
         {
+            //Debugging
+            //Debug.Log(snapshotStorage.savedSnapshots.Count);
+
             switch (state)
             {
                 case State.Recording:
-                    TakeSnapshot(); 
+                    snapshotIndex++;
+                    TakeSnapshot();
                     break;
 
                 case State.Replaying:
@@ -54,6 +65,7 @@ namespace TimeSnapshot
                     if (specialTimer < 0)
                     {
                         GoIdle();
+
                     }
                     break;
 
@@ -63,12 +75,23 @@ namespace TimeSnapshot
 
                     if (specialTimer < 0)
                     {
+                        EventManager.TriggerEvent("AtTimeMachine", null);
                         GoIdle();
                     }
                     break;
             }
 
             specialTimer -= Time.fixedDeltaTime;
+        }
+
+        public void Register(IRecordable recordable)
+        {
+            recordables.Add(recordable);
+        }
+
+        public void Unregister(IRecordable recordable)
+        {
+            recordables.Remove(recordable);
         }
 
 
@@ -85,25 +108,26 @@ namespace TimeSnapshot
             specialTimer = seconds;
 
             // Liga o glitch
-            ShaderController.instance.TurnOn();
+            //ShaderController.instance.TurnOn();
         }
         
         public void Rewind(float seconds = 10)
         {
-            snapshotIndex = snapshotStorage.savedSnapshots.Count - 1;
+            //snapshotIndex = snapshotStorage.savedSnapshots.Count - 1;
             state = State.Rewinding;
             specialTimer = seconds;
 
             // Liga o glitch
-            ShaderController.instance.TurnOn();
+            //ShaderController.instance.TurnOn();
         }
 
         public void GoIdle()
         {
             state = State.Idle;
+            EventManager.TriggerEvent("TimeBackToNormal", null);
 
             // Desliga o glitch
-            ShaderController.instance.TurnOff();
+            //ShaderController.instance.TurnOff();
         }
 
 
@@ -118,7 +142,7 @@ namespace TimeSnapshot
                 fullGameSnapshot.AddSnapshot(recordables[i].GetId(), recordables[i].SaveSnapshot());
             }
 
-            snapshotStorage.AddSnapshot(fullGameSnapshot);
+            snapshotStorage.AddSnapshot(fullGameSnapshot, snapshotIndex);
         }
 
         private void LoadNextSnapshot()
@@ -140,6 +164,40 @@ namespace TimeSnapshot
                 Debug.LogWarning("Snapshot Storage exhausted! Try to stop replaying/rewinding before this happens!");
                 GoIdle();
             }
+        }
+
+        private void OnEnable()
+        {
+            EventManager.Subscribe("Replay", PrepareReplay);
+            EventManager.Subscribe("Rewind", PrepareRewind);
+            //EventManager.Subscribe("AtTimeMachine", PrepareIdle);
+            EventManager.Subscribe("Record", PrepareRecord);
+        }
+
+        private void OnDisable()
+        {
+            EventManager.Unsubscribe("Replay", PrepareReplay);
+            EventManager.Unsubscribe("Rewind", PrepareRewind);
+            //EventManager.Unsubscribe("AtTimeMachine", PrepareIdle);
+            EventManager.Unsubscribe("Record", PrepareRecord);
+        }
+
+        void PrepareReplay(object parameter)
+        {
+            Replay((float) parameter);
+        }
+        void PrepareRewind(object parameter)
+        {
+            Debug.Log(parameter);
+            Rewind((float)parameter);
+        }
+        void PrepareIdle(object parameter)
+        {
+            GoIdle();
+        }
+        void PrepareRecord(object parameter)
+        {
+            StartRecording();
         }
     }
 }

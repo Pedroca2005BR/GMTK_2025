@@ -39,4 +39,30 @@ public class ShaderController : MonoBehaviour
     {
         analogGlitchVolume.active = false;
     }
+
+
+    private void OnEnable()
+    {
+        EventManager.Subscribe("Replay", PrepareTurnOn);
+        EventManager.Subscribe("Rewind", PrepareTurnOn);
+        EventManager.Subscribe("TimeBackToNormal", PrepareTurnOff);
+    }
+
+    private void OnDisable()
+    {
+        EventManager.Unsubscribe("Replay", PrepareTurnOn);
+        EventManager.Unsubscribe("Rewind", PrepareTurnOn);
+        EventManager.Unsubscribe("TimeBackToNormal", PrepareTurnOff);
+    }
+
+
+    private void PrepareTurnOn(object parameter)
+    {
+        TurnOn();
+    }
+
+    private void PrepareTurnOff(object parameter)
+    {
+        TurnOff();
+    }
 }
